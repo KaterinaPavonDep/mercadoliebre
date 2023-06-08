@@ -1,0 +1,152 @@
+
+
+body {
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+    background-color: #ebebeb;
+    
+}
+
+header{
+    height: 100px;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff159;
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    margin-top: 10px;
+}
+
+.burger {
+    display: block;
+    background-color: #e46612;
+    color: #ffffff;
+    max-width: 40px;
+    max-height: 40px;
+    padding: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+
+}
+
+.fa-truck{
+    display:block;
+    font-size: 16px;
+    color: #39b54a;
+    border: solid 1px #39b54a;
+    padding: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+    transition: all 450ms;
+}
+
+.fa-truck:hover {
+    color: #060706;
+    cursor: pointer;
+}
+
+.info{
+font-size: smaller;
+   
+}
+
+.nombre{
+
+    font-size: smaller;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+article img{
+    width: 150px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+footer div{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+footer h4{
+    margin-bottom: 5px;
+}
+
+
+footer i {
+        color: #000;
+        transition: color 0.3s ease;
+}
+      
+footer i:hover {
+        color: #1ff23f;
+        cursor: pointer;
+}
+
+@media (max-width: 500px){
+    section{
+        flex-direction: column;
+    }
+    ul {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+}
+article.object {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px ;
+    background-color: #ebebeb;
+    border: solid;
+}
+
+
+.ofertasmoment{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 100px; 
+    align-items: center;
+    padding-right: 10px;
+}
+
+.search-bar{
+    padding: 10px;
+}
+
